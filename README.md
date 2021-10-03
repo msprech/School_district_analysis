@@ -11,20 +11,30 @@ This report seeks to reduce the impact of the false scores on the analysis by fi
 
 * The new district summary showed that the percent passing in math, reading, and overall each dropped, however none were a significant change and stayed within a     margin of 1%. 
 
+New District Summary:
+
 ![new district](https://github.com/msprech/School_district_analysis/blob/460d368980014276dd308effb753b7f79f80a62d/Resources/new%20district%20summary%20df.png)
+
+Original District Summary:
 
 ![original district](https://github.com/msprech/School_district_analysis/blob/460d368980014276dd308effb753b7f79f80a62d/Resources/old%20district%20summary.png)
 
 
 * By replacing the 9th grade reading and math scores from the students of Thomas High School with NaN (not a number) values, the percent passing both in each         subject and overall plummetted. 
 
+New School Summary with NaN Values: 
+
 ![school summary nan](https://github.com/msprech/School_district_analysis/blob/460d368980014276dd308effb753b7f79f80a62d/Resources/THS%20school%20summary%20w%20nan.png)
 
 * By recalculating the school summary while excluding these scores completely, only the average math scores and percent passing math suffered. The reading scores,     percentage, and overall passing percentage actually improved by dropping the 9th grade scores.  
 
+New School Summary without NaN Values: 
+
 ![school summary no nan](https://github.com/msprech/School_district_analysis/blob/460d368980014276dd308effb753b7f79f80a62d/Resources/THS%20school%20summary%20without%209th%20graders.png)
 
 * Thomas High School was originally the second highest performing school in terms of overall passing percentage. In replacing the ninth grade math and reading         scores with NaN values, Thomas High School dropped out of the top 5, but did not impact the original bottom 5. 
+
+New Top 5 Summary with NaN values: 
 
 ![new top 5](https://github.com/msprech/School_district_analysis/blob/460d368980014276dd308effb753b7f79f80a62d/Resources/top%205%20schools%20with%20nan%20values.png)
 
